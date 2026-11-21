@@ -1,0 +1,62 @@
+# Unified Clash Royale AI - Requirements
+# Объединенный проект для игры в Clash Royale
+
+# ===== Core =====
+numpy>=1.21.0
+Pillow>=8.0.0
+
+# ===== Computer Vision =====
+opencv-python>=4.5.0
+mss>=6.0.0
+dxcam>=0.0.5  # Windows only, fast screen capture (optional, fallback to mss if not available)
+
+# ===== Machine Learning =====
+tensorflow>=2.8.0
+keras>=2.8.0
+ultralytics>=8.0.0  # YOLO v8
+
+# ===== OCR =====
+easyocr>=1.6.0
+
+# ===== GUI Automation =====
+pyautogui>=0.9.50
+pygetwindow>=0.0.9
+keyboard>=0.13.5
+
+# ===== Reinforcement Learning =====
+gym>=0.21.0
+scikit-learn>=1.0.0
+pandas>=1.3.0
+
+# ===== Image Processing =====
+imutils>=0.5.4
+
+# ===== GUI =====
+# tkinter is built-in
+
+# ===== Optimization =====
+onnx>=1.12.0
+onnxruntime>=1.12.0
+# onnxruntime-gpu>=1.12.0  # Uncomment for GPU
+
+# ===== Model Optimization (Optional) =====
+# onnxoptimizer>=0.2.0  # For ONNX optimization
+# tf2onnx>=1.12.0  # TensorFlow to ONNX conversion
+
+# ===== YAML for configs =====
+PyYAML>=6.0
+
+# ===== Windows specific =====
+pywin32>=300  # Windows only
+
+# ===== Testing =====
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# ===== Optional: GPU acceleration =====
+# tensorflow-gpu>=2.8.0
+# torch>=1.12.0
+# torchvision>=0.13.0
+
+# ===== Optional: TensorRT (NVIDIA only) =====
+# tensorrt>=8.4.0
